@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkGray"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="181dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029">
+
+        <ImageView
+            android:id="@+id/KarasImg"
+            android:layout_width="212dp"
+            android:layout_height="108dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/karas" />
+
+        <TextView
+            android:id="@+id/KarasText"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name: Karas"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/KarasLearnButton"
+            android:layout_width="105dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:background="#0E0D0D"
+            android:onClick="onClickKaras"
+            android:text="Learn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="0dp"
+        android:layout_height="142dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="212dp"
+            android:layout_height="108dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/karp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name: Karp"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/KarpLearnButton"
+            android:layout_width="105dp"
+            android:layout_height="52dp"
+            android:background="@color/black"
+            android:onClick="onClickKarp"
+            android:text="Learn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="131dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="212dp"
+            android:layout_height="108dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/okun" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name: Okun"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/OkunButton"
+            android:layout_width="105dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="onClickOkun"
+            android:text="Learn" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
