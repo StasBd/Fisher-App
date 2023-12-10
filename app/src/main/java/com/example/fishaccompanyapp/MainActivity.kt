@@ -32,4 +32,7 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, OkunActivity::class.java)
         startActivityForResult(intent, 3)
     }
+    fun add(){
+
+    }
 }
