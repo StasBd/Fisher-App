@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
   // logic of button karas
     fun onClickKaras(view: View){
         val intent = Intent(this, KarasActivity::class.java)
