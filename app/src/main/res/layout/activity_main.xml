@@ -8,6 +8,19 @@
     android:backgroundTint="@color/DarkGray"
     tools:context=".MainActivity">
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bNav"
+        android:layout_width="0dp"
+        android:layout_height="111dp"
+        android:background="#673AB7"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/europe_menu"
+        tools:visibility="visible" />
+
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="0dp"
@@ -128,18 +141,15 @@
     </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bNav"
+        android:id="@+id/continentsBtnNavView"
         android:layout_width="0dp"
-        android:layout_height="111dp"
-        android:background="#673AB7"
-        android:visibility="visible"
+        android:layout_height="100dp"
+        android:background="@color/design_default_color_primary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.974"
-        app:menu="@menu/europe_menu"
-        tools:visibility="visible" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/europemenu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

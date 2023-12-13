@@ -9,11 +9,26 @@ import android.view.View
 import com.example.fishaccompanyapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
+    lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-        val binding = ActivityMainBinding.inflate(layoutInflater)
+       binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(binding.root)
+
+
+        binding.continentsBtnNavView.setOnNavigationItemReselectedListener{
+            true
+            when(it.itemId){
+
+                R.id.europe -> {}
+
+                R.id.asia -> {}
+
+                R.id.africa -> {}
+
+                R.id.america -> {}
+            }
+        }
     }
 
   // logic of button karas
@@ -33,7 +48,6 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, OkunActivity::class.java)
         startActivityForResult(intent, 3)
     }
-    fun add(){
 
-    }
+
 }
