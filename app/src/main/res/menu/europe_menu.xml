@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Europe"
+        android:icon="@drawable/europe_item1"
+        android:title="Europe"/>
+    <item
+        android:id="@+id/Asia"
+        android:icon="@drawable/asia_item1"
+        android:title="Asia"/>
+    <item
+        android:id="@+id/Africa"
+        android:icon="@drawable/africa_item1"
+        android:title="Africa"/>
+    <item
+        android:id="@+id/America"
+        android:icon="@drawable/america_item1"
+        android:title="America"/>
+</menu>
