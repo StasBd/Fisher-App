@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/europe"
+        android:icon="@drawable/europe"
+        android:title="Europe"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/asia"
+        android:icon="@drawable/asia"
+        android:title="Asia"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/africa"
+        android:icon="@drawable/africa"
+        android:title="Europe"
+        android:orderInCategory="3"/>
+
+    <item
+        android:id="@+id/america"
+        android:icon="@drawable/america"
+        android:title="Europe"
+        android:orderInCategory="4"/>
+</menu>
