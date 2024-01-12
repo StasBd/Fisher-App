@@ -21,6 +21,12 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.europe -> replaceFragment(EuropeFragment())
+
+                R.id.africa -> replaceFragment(AfricaFragment())
+
+                R.id.asia -> replaceFragment(AsiaFragment())
+
+                R.id.america -> replaceFragment(AmericaFragment())
                 else -> {
 
                 }
