@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkGray"
+    tools:context=".KarasActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012">
+
+        <ImageView
+            android:id="@+id/KarasImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/karas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/Fish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fish name: Karas(European)"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/InfoAbtFish"
+        android:layout_width="409dp"
+        android:layout_height="522dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The crucian carp is a widely distributed European species, its range spanning from England to Russia; it is found as far north as the Arctic Circle in the Scandinavian countries, and as far south as central France and the region of the Black Sea.[3] Its habitat includes lakes, ponds, and slow-moving rivers. It has been established that the fish is native to England and not introduced.[4]  The crucian carp is a medium-sized cyprinid, typically 15 centimetres (5.9 in) in body length, and rarely exceeds in weight over 2 kilograms (4.4 lb),[5] but a maximum total length of 64 centimetres (25 in) has been reported for a male,[6] and the heaviest published weighed 3 kilograms (6.6 lb).[7]  They are broadly described as having a body of &quot;golden-green shining color&quot;,[8] but a more precise source states that young fish are golden-bronze[9] but darken with maturity,[9] until they gain a dark green back, deep bronze upper flanks, and gold on the lower flanks and belly,[9] and reddish[citation needed] or orange[10] fins,[11] although other colour variations exist. One distinguishing characteristic is a convexly rounded fin, as opposed to goldfish (or C. gibelio) hybrids which have concave fins.[10"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
