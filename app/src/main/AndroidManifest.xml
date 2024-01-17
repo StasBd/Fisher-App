@@ -13,13 +13,16 @@
         android:theme="@style/Theme.FishAccompanyApp"
         tools:targetApi="31">
         <activity
+            android:name=".CamptonaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KarpActivity"
+            android:exported="false" />
+        <activity
             android:name=".KarasActivity"
             android:exported="false" />
         <activity
             android:name=".OkunActivity"
-            android:exported="false" />
-        <activity
-            android:name=".KarpActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

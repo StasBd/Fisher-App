@@ -15,12 +15,12 @@
     <item
         android:id="@+id/africa"
         android:icon="@drawable/africa"
-        android:title="Europe"
+        android:title="Africa"
         android:orderInCategory="3"/>
 
     <item
         android:id="@+id/america"
         android:icon="@drawable/america"
-        android:title="Europe"
+        android:title="America"
         android:orderInCategory="4"/>
 </menu>
