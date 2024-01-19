@@ -24,8 +24,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="49dp"
-            android:layout_marginBottom="95dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="96dp"
             android:text="Fish name: Belonophago"
             android:textColor="@color/white"
             android:textSize="16sp" />
@@ -38,6 +38,41 @@
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="91dp"
             android:layout_marginBottom="30dp"
+            android:text="Learn" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@color/Teal">
+
+        <ImageView
+            android:id="@+id/elefantimg"
+            android:layout_width="162dp"
+            android:layout_height="150dp"
+            android:src="@drawable/elefantt" />
+
+        <TextView
+            android:id="@+id/elefanttxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="93dp"
+            android:text="Fish name: Elefant"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/elefantButton"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="76dp"
+            android:layout_marginBottom="28dp"
             android:text="Learn" />
     </RelativeLayout>
 </FrameLayout>

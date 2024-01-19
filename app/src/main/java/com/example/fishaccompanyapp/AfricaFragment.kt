@@ -53,6 +53,11 @@ class AfricaFragment : Fragment() {
             startActivity(intent)
         }
 
+
+        binding.elefantButton.setOnClickListener{
+            val intent = Intent(activity, ElefantActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     companion object {
