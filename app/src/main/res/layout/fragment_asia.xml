@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF5722"
-    tools:context=".AsiaFragment" />
+    android:background="@color/DarkGray"
+    tools:context=".AsiaFragment" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/Teal">
+
+        <ImageView
+            android:id="@+id/belugaImage"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beluga" />
+
+        <TextView
+            android:id="@+id/belugatext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="95dp"
+            android:text="Fish name: Beluga"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/belugaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="93dp"
+            android:layout_marginBottom="34dp"
+            android:text="Learn" />
+    </RelativeLayout>
+</FrameLayout>

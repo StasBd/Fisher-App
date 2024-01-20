@@ -1,15 +1,21 @@
 package com.example.fishaccompanyapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.fishaccompanyapp.databinding.FragmentAmericaBinding
+import com.example.fishaccompanyapp.databinding.FragmentAsiaBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
+
+private var _binding: FragmentAsiaBinding? = null
+private val binding get() = _binding!!
 
 /**
  * A simple [Fragment] subclass.
@@ -32,9 +38,18 @@ class AsiaFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_asia, container, false)
+    ): View {
+        _binding = FragmentAsiaBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
+        binding.belugaButton.setOnClickListener{
+            val intent = Intent(activity, BelugaActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     companion object {
