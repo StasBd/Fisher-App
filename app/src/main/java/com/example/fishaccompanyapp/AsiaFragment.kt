@@ -50,6 +50,11 @@ class AsiaFragment : Fragment() {
             startActivity(intent)
         }
 
+        binding.hemibagrusButton.setOnClickListener{
+            val intent = Intent(activity, HemibagrusActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     companion object {

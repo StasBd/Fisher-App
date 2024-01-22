@@ -40,4 +40,40 @@
             android:layout_marginBottom="34dp"
             android:text="Learn" />
     </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@color/Teal">
+
+        <ImageView
+            android:id="@+id/hemibagrusImage"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/hemibagrus" />
+
+        <TextView
+            android:id="@+id/hemibagrusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="97dp"
+            android:text="Fish name: Hemibagrus"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/hemibagrusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="92dp"
+            android:layout_marginBottom="36dp"
+            android:text="Learn" />
+    </RelativeLayout>
 </FrameLayout>
