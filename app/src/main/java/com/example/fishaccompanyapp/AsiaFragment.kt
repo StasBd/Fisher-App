@@ -55,6 +55,11 @@ class AsiaFragment : Fragment() {
             startActivity(intent)
         }
 
+        binding.astyanaxButton.setOnClickListener{
+            val intent = Intent(activity, AstyanaxMain::class.java)
+            startActivity(intent)
+        }
+
     }
 
     companion object {
