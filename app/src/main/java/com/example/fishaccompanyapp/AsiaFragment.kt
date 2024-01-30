@@ -45,20 +45,7 @@ class AsiaFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-        binding.belugaButton.setOnClickListener{
-            val intent = Intent(activity, BelugaActivity::class.java)
-            startActivity(intent)
-        }
 
-        binding.hemibagrusButton.setOnClickListener{
-            val intent = Intent(activity, HemibagrusActivity::class.java)
-            startActivity(intent)
-        }
-
-        binding.astyanaxButton.setOnClickListener{
-            val intent = Intent(activity, AstyanaxMain::class.java)
-            startActivity(intent)
-        }
 
     }
 

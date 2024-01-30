@@ -1,114 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/DarkGray"
-    tools:context=".AsiaFragment" >
+    tools:context=".AsiaFragment">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/Teal">
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/belugaImage"
-            android:layout_width="150dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/beluga" />
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/belugatext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="58dp"
-            android:layout_marginBottom="95dp"
-            android:text="Fish name: Beluga"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 1" />
 
-        <Button
-            android:id="@+id/belugaButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="93dp"
-            android:layout_marginBottom="34dp"
-            android:text="Learn" />
-    </RelativeLayout>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 2" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        android:background="@color/Teal">
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 3" />
 
-        <ImageView
-            android:id="@+id/hemibagrusImage"
-            android:layout_width="150dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/hemibagrus" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 4" />
 
-        <TextView
-            android:id="@+id/hemibagrusText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="36dp"
-            android:layout_marginBottom="97dp"
-            android:text="Fish name: Hemibagrus"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textSize="16sp" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 5" />
 
-        <Button
-            android:id="@+id/hemibagrusButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="92dp"
-            android:layout_marginBottom="36dp"
-            android:text="Learn" />
-    </RelativeLayout>
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 6" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_gravity="bottom"
-        android:background="@color/Teal">
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 7" />
 
-        <TextView
-            android:id="@+id/astyanaxText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="44dp"
-            android:layout_marginBottom="94dp"
-            android:text="Fish name: Astyanax"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 8" />
 
-        <Button
-            android:id="@+id/astyanaxButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="85dp"
-            android:layout_marginBottom="29dp"
-            android:text="Learn" />
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 9" />
 
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="150dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/astyanax" />
-    </RelativeLayout>
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 10" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 11" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 12" />
+
+            <Button
+                android:id="@+id/button68u6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 10" />
+
+            <Button
+                android:id="@+id/button14575"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 10" />
+
+            <Button
+                android:id="@+id/button1265126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Butto143" />
+
+            <Button
+                android:id="@+id/button15345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 1515" />
+
+            <!-- Add more buttons as needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
 </FrameLayout>
