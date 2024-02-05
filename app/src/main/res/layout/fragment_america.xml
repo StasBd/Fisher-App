@@ -7,106 +7,114 @@
     android:background="@color/black"
     tools:context=".AmericaFragment">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/Teal">
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/CamptonaImage"
-            android:layout_width="158dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/campostoma" />
-
-        <TextView
-            android:id="@+id/fishname1"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="13dp"
-            android:layout_marginBottom="99dp"
-            android:text="Fish name: Camptona"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/camptonaButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="104dp"
-            android:layout_marginBottom="34dp"
-            android:text="Learn" />
-    </RelativeLayout>
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 1" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        android:background="@color/Teal">
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 2" />
 
-        <ImageView
-            android:id="@+id/Astyanaximg"
-            android:layout_width="158dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/astyanax" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 3" />
 
-        <TextView
-            android:id="@+id/Astyanaxstsa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="41dp"
-            android:layout_marginBottom="109dp"
-            android:text="Fish name: Astyanax"
-            android:textColor="@color/white" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 4" />
 
-        <Button
-            android:id="@+id/buttonAstyanax"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="101dp"
-            android:layout_marginBottom="28dp"
-            android:text="Learn" />
-    </RelativeLayout>
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 5" />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_gravity="bottom"
-        android:background="@color/Teal"
-        >
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 6" />
 
-        <ImageView
-            android:id="@+id/toburniaImg"
-            android:layout_width="158dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/thoburnia" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 7" />
 
-        <TextView
-            android:id="@+id/toburniatxt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="27dp"
-            android:layout_marginBottom="95dp"
-            android:text="Fish name: Thoburnia"
-            android:textColor="@color/white" />
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 8" />
 
-        <Button
-            android:id="@+id/toburniaButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="105dp"
-            android:layout_marginBottom="28dp"
-            android:text="Learn" />
-    </RelativeLayout>
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 9" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 10" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 11" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 12" />
+
+            <Button
+                android:id="@+id/button68u6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 10" />
+
+            <Button
+                android:id="@+id/button14575"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 10" />
+
+            <Button
+                android:id="@+id/button1265126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Butto143" />
+
+            <Button
+                android:id="@+id/button15345"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button 1515" />
+
+            <!-- Add more buttons as needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
 </FrameLayout>

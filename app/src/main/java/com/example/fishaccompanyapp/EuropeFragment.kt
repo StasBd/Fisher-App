@@ -49,20 +49,7 @@ class EuropeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-        binding.PerchButton.setOnClickListener {
-            val intent = Intent(activity, OkunActivity::class.java)
-            startActivity(intent)
-        }
 
-        binding.KarasButton.setOnClickListener {
-            val intent = Intent(activity, KarasActivity::class.java)
-            startActivity(intent)
-        }
-
-        binding.KarpButton.setOnClickListener{
-            val intent = Intent(activity, KarpActivity::class.java)
-            startActivity(intent)
-        }
 
     }
 

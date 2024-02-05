@@ -47,19 +47,7 @@ class AmericaFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-        binding.camptonaButton.setOnClickListener{
-            val intent = Intent(activity, CamptonaActivity::class.java)
-            startActivity(intent)
-        }
 
-        binding.buttonAstyanax.setOnClickListener{
-            val intent = Intent(activity, AstyanaxMain::class.java)
-            startActivity(intent)
-        }
-        binding.toburniaButton.setOnClickListener{
-            val intent = Intent(activity, ToburniaActivity::class.java)
-            startActivity(intent)
-        }
     }
 
     companion object {

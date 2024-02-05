@@ -48,21 +48,7 @@ class AfricaFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-        binding.belonophagoButton.setOnClickListener{
-            val intent = Intent(activity, BelonophagoActivity::class.java)
-            startActivity(intent)
-        }
 
-
-        binding.elefantButton.setOnClickListener{
-            val intent = Intent(activity, ElefantActivity::class.java)
-            startActivity(intent)
-        }
-
-        binding.chitalaButton.setOnClickListener{
-            val intent = Intent(activity, ChitalaActivity::class.java)
-            startActivity(intent)
-        }
     }
 
     companion object {
