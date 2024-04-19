@@ -47,8 +47,10 @@ class EuropeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-
+    binding.button1.setOnClickListener{
+        var TextData = ReusableActivity("Hanosa", "14-15years", "It's big")
+       startActivity(Intent(activity, ReusableActivity::class.java))
+    }
 
 
     }
@@ -71,5 +73,7 @@ class EuropeFragment : Fragment() {
                     putString(ARG_PARAM2, param2)
                 }
             }
+
+        //place to use reusable activity
     }
 }
