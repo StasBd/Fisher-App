@@ -49,7 +49,9 @@ class EuropeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
     binding.button1.setOnClickListener{
         var TextData = ReusableActivity("Hanosa", "14-15years", "It's big")
-       startActivity(Intent(activity, ReusableActivity::class.java))
+       println("It's working?")
+        //guys we working with our system cus it's still not that I need soo
+
     }
 
 
