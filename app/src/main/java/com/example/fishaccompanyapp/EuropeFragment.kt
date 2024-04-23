@@ -48,9 +48,10 @@ class EuropeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
     binding.button1.setOnClickListener{
-        var TextData = ReusableActivity("Hanosa", "14-15years", "It's big")
+        var TextData = ReusableActivity("Hanosa", "14-15years", "It's big").toString()
        println("It's working?")
         //guys we working with our system cus it's still not that I need soo
+      var intent = Intent(this, ReusableActivity::class.java)
 
     }
 
